@@ -52,7 +52,7 @@ public:
 	}
 	int withdrawCash(int amount) {
 		balance -= amount;
-		return balance
+		return balance;
 	};
 	Client get_client() {
 		return client;
