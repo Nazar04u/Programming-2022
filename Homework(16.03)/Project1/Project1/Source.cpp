@@ -84,12 +84,12 @@ int main() {
 
 	vector<Transport*> transport;
 
-	WaterTransport a(110, "Boat", "River", 15);
-	LandTransport b(45, "Motorcycle", 110, 2);
-	LandTransport c(60, "Car", 110, 2);
-	WaterTransport d(40, "Ship", "Sea", 40);
-	Amphibia e(55, "Agent 007 Car", "Sea", 60, 140, 5, 200, 5000);
-	Amphibia f(70, "Amphibian tank", "River", 30, 55, 6, 25, 400);
+	WaterTransport a(10, "Boat", "River", 1);
+	LandTransport b(45, "Motor", 1, 2);
+	LandTransport c(60, "Car", 1, 2);
+	WaterTransport d(40, "Ship", "Sea", 4);
+	Amphibia e(5, "Car", "Sea", 6, 10, 5, 200, 50);
+	Amphibia f(70, "Amphibian", "River", 3, 5, 6, 2, 40);
 
 	transport.push_back(&a);
 	transport.push_back(&b);
